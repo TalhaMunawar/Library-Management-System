@@ -1,0 +1,165 @@
+html, body, div, h1, h2, h3, p {
+    margin: 0px;
+    padding: 0px;
+  }
+header {
+    padding: 10px 40px;
+    background-color: #3b3b61;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 11pt;
+    text-transform: uppercase;
+
+}
+form {
+   
+    padding: 0;
+}
+.noBook {
+    text-align: center;
+    padding: 50px 30%;
+}
+.noBook p {
+    color: #3b3b61;
+    text-align: center;
+    font-size: 42px;
+    padding: 150px 10px 20px;
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+}
+.noBook button {
+    color: beige;
+    background-color: #3b3b61;
+    padding: 10px 100px;
+    font-size: 22px;
+    font-family:  'Roboto Condensed', sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    
+    
+}
+.noBook button:hover {
+    background-color: #323255;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:focus {
+    outline:0;
+}
+
+.book {
+    padding: 40px;
+    max-width: 100%;
+    
+}
+.book button {
+    color: beige;
+    background-color: #3b3b61;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-family:  sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    margin:5px;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+}
+.custom-button {
+    color: beige;
+    background-color: #3b3b61;
+    padding: 10px 45px;
+    font-size: 18px;
+    font-family:  sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    margin:10px 0;
+  
+}
+.back-btn {
+    color: #777777;
+    display: inline-block;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+.right-btn {
+    float: right;
+  
+}
+table, tr, th, td {
+    
+    border-collapse: collapse;
+    
+  }
+
+.bookTable {
+    width: 100%;
+    margin: 20px auto;
+    font-family: 'Roboto';
+    border: 1px solid #3b3b61;
+  }
+
+  .bookTable th {
+    background-color: #323255;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 1px;
+    padding: 12px 8px;
+    text-transform: uppercase;
+  }
+
+  
+.bookTable td {
+    font-size: 11pt;
+    padding: 10px 8px;
+    border-bottom: 1px solid #3b3b61;
+  }
+  
+  .bookTable tr {
+    text-align: center;
+  }
+  
+  .bookTable tr:nth-child(even) {
+    background-color: #FFFFFF;
+  }
+  
+  .bookTable tr:nth-child(odd) {
+    background-color: #EFF2F7;
+  }
+  
+  .bookTable tr td:nth-child(2), .bookTable tr th:nth-child(2) {
+    text-align: left;
+  }
+
+  .formBlock {
+    /*background-color: #EEEEEE;*/
+    max-width: 70%;
+    margin: auto;  
+    padding: 40px;
+    overflow: hidden;
+  }
+  
+  .formBlock h2 {
+    font-family: 'Roboto Condensed';
+    font-size: 16pt;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 15px 0px;
+  }
+  input.textbox {
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing : border-box;
+    font-size: 11pt;
+    margin: 5px auto;
+  }
+
+ 

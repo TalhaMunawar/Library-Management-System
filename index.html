@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LMS
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <script src="js/lib/jquery-3.2.1.js"></script>
+    </head>
+    <body id="index">
+        <header>
+            <h2>Library Management System</h2>
+        </header>
+
+        <div id="noBookFound" class="noBook" style="display: none;">
+            <p>Not much of a reader, eh?</p>
+           
+           <a href="addBook.html">
+            <button >
+                ADD BOOK
+            </button>
+           </a>
+            
+        </div>
+        <div id="bookFound" class="book" style="display: none;">
+            <div class="linkButtons">
+                <a href="authors.html">
+                    <button>
+                        Authors
+                    </button>
+                </a>
+                <a href="publishers.html">
+                    <button>
+                        Publishers
+                    </button>
+                </a>
+                <button id="purgeLibrary" class="right-btn">
+                    Purge Library
+                </button>
+                <a href="addBook.html">
+                    <button class="right-btn">
+                        Add Book
+                    </button>
+                </a>
+            </div>
+            <div>
+                <table id="booksTable" class="bookTable">
+                    <tr>
+                        <th>Book #</th>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Publisher</th>
+                        <th>Date Published</th>
+                        <th>Actions</th>
+                    </tr>
+                   
+                   
+                </table>
+
+
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

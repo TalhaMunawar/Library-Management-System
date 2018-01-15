@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LMS
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <script src="js/lib/jquery-3.2.1.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Library Management System</h2>
+        </header>
+       
+
+      
+        <div class="formBlock">
+            <h2>
+                Add New Book
+            </h2>
+
+            <form id="bookForm" method="post" action="index.html" onsubmit="addBook()">
+                    <input class="textbox" type="text" name="bookName" placeholder="Book Name" required>
+                    <input class="textbox" type="text" name="authorName" placeholder="Author Name" required>
+                    <input class="textbox" type="text" name="publisherName" placeholder="Publisher Name" required>
+                    <input class="textbox" type="date" name="datePublished" style="text-transform: uppercase">
+                    <input class="custom-button right-btn" type="submit" value="Add Book">
+                  </form>
+             
+                  <a class="back-btn" href="index.html">Go Back</a>
+          
+                
+        </div>
+
+     
+           
+        <script src="js/script.js"></script>
+    </body>
+</html>
